@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Infnty.css">
+    <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <header class="container-fluid">
+        <nav
+            class="navbar navbar-expand-sm navbar-light bg-light"
+        >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="Main/Infinity.html"><img src="Main/Assets/INFINITY.jpg" class="w-50" alt=""></a>
+                <button
+                    class="navbar-toggler d-lg-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="Infinity.html" aria-current="page"
+                                >Home
+                                <span class="visually-hidden">(current)</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Main/About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Main/Features.html">Features</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="dropdownId"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                ><span><img src="Main/Track Icon.png" alt=""></span> Branches</a
+                            >
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownId"
+                            >
+                                <a class="dropdown-item" href="#"
+                                    > Vizag</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                > Banglore</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    > Hyderabad</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                > Vijayanagaram</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                > Kurnool</a
+                                >
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="dropdownId"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                > Food Items</a
+                            >
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownId"
+                            >
+                            <a class="dropdown-item" href="Main/Brgr & Fries.html"
+                            >
+                                <img src="Main/Assets/Cheese Burger.jpg" class="w-50" alt="">
+                                <p>Burgers & Fries</p>
+                                </a>
+                                <a class="dropdown-item" href="Main/Noodle.html"
+                                > <img src="Main/Assets/Instant Noodles.jpg" class="w-50" alt="">
+                                <p>Noodles</p>
+                                </a>
+                                <a class="dropdown-item" href="Main/PzaMnia.html"
+                                > <img src="Assets/Pizza & Pasta.jpg" class="w-50" alt="">
+                                <p>Pizza & Pasta</p>
+                                </a>
+                                <a class="dropdown-item" href="Main/McDonald's.html"
+                                > <img src="Assets/Grills & Steeks.jpg" class="w-50" alt="">
+                                <p>Grills & Steeks</p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="rk">
+                        <div>
+                            <input class="control" type="text" placeholder=" Search" />
+                            <button><img class="btn-danger" data-bs-target="#sign" data-bs-toggle="modal" src="Main/Assets/User Icon.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="modal fade" id="sign">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div>
+                        <h3 class="modal-title">Sign In</h3>
+                    </div>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="light">
+                        <form action="Main/InfinityFood.html" onsubmit="return sign()">
+                            <label for="email">EMail Address:-</label>
+                            <input type="text" name="email" id="email" placeholder="Enter Your Your Email" />
+                            <p id="emailError"></p>
+                            <label for="mobile">Mobile Number:-</label>
+                            <input type="text" name="mobile" id="mobile" placeholder="Mobile Number"/>
+                            <p id="mobileError"></p>
+                            <label for="password">Password:-</label>
+                            <input type="text" name="password" id="password" placeholder="Password"/>
+                            <p id="passwordError"></p>
+                            <input type="submit" value="Submit" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="container-fluid">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+           <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="bg">
+                        <div>
+                            <h2>Burgers & Pizzas</h2>
+                            <p>classic beef to spicy chicken & Veggie Flavoured Burgers & Pizzas every tasted in LIFE.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg1">
+                        <div>
+                            <h2>Noodles</h2>
+                            <p>Freshly tossed noodles will bring the streets of Asia to your plate. Slurp your way through our delicious range.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg2">
+                        <div>
+                            <h2>Pasta Kings</h2>
+                            <p>you loveable rich, creamy pasta by italian food will be in your plate.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg3">
+                        <div>
+                            <h2>Grills</h2>
+                            <p>Enjoy the smoky flame-grilled meats & veggies in your plate. Enjoy those freshly items in low cost.</p>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselId"
+                data-bs-slide="prev"
+            >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselId"
+                data-bs-slide="next"
+            >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="food1">
+            <div>
+                <h2>Trending food in your city</h2>
+                <p>Choose what you want and we dilever it to you</p>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card">
+                        <a href="Main/Pza & Brgrs.html"><img type="burger" src="Main/Assets/Pizza & Burgers Img.jpg" alt=""></a>
+                        <div class="card-body">
+                            <div>
+                                <h3>Pizza & Burger</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <a href="Main/Noodle.html"><img src="Main/Assets/Fd Img (2).jpg" alt=""></a>
+                        <div class="card-body">
+                            <div>
+                                <h3>Noodles</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <a href="Main/Dosas.html"><img src="Main/Assets/Dosa Hubs.jpg" alt=""></a>
+                        <div class="card-body">
+                            <div>
+                                <h3>Dosaverse</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <a href="Main/Pasta.html"><img src="Main/Assets/Fd Img (5).jpg" alt=""></a>
+                        <div class="card-body">
+                            <div>
+                                <h3>Pasta King</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid p-0">
+        <div class="cookie">
+            <div class="row p-2">
+                <div class="col-12 col-md-6 col-lg-3 p-3">
+                    <div>
+                        <img src="Main/Assets/INFINITY.jpg" alt="">
+                    </div>
+                    <div class="rkm">
+                        <div class="dropdown open p-3">
+                            <button
+                                class="btn dropdown-toggle"
+                                type="button"
+                                id="triggerId"
+                                data-bs-toggle="dropdown"
+                            >
+                            <span><img src="Main/Assets/flag-of-india-waving.gif" alt=""></span> India / ₹
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                                <button class="dropdown-item" href="#">Delhi</button>
+                                <button class="dropdown-item" href="#">Gujarat</button>
+                                <button class="dropdown-item" href="#">Hyderabad</button>
+                            </div>
+                        </div>       
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 p-3">
+                    <div>
+                        <h3>Categories</h3>
+                    </div>
+                    <ol>
+                        <li><a href="Main/Brgr & Fries.html">Burgers & Fries</a></li>
+                        <li><a href="Main/Noodle.html">Noodles</a></li>
+                        <li><a href="Main/PzaMnia.html">Pizza & Pasta</a></li>
+                        <li><a href="Main/McDonald's.html">Grills & Steaks</a></li>
+                    </ol>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 p-3">
+                    <div>
+                        <h3>Let us help you</h3>
+                    </div>
+                    <ol>
+                        <li><a href="Main/Support.html">Support</a></li>
+                        <li><a href="Main/Contact.html">Contact</a></li>
+                    </ol>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 p-3">
+                    <div>
+                        <h3>Follow us</h3>
+                    </div>
+                    <ol>
+                        <li><img src="Main/Assets/Facebook.svg" alt=""> Facebook</li>
+                        <li><img src="Main/Assets/icons8-instagram.svg" alt="">Instagram</li>
+                        <li><img src="Main/Assets/icons8-twitter.svg" alt=""> Twitter</li>
+                    </ol>
+                </div>
+        </div>   
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="Main/jquery-3.7.1.min.js"></script>
+    <script src="dist/owl.carousel.min.js"></script>
+    <script src="Script-3.js"></script>
+    <script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: false,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+</script>
+</body>
+</html>

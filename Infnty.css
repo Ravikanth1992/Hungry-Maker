@@ -1,0 +1,370 @@
+nav .rk div button{
+    border-radius: 100%;
+    background-color: transparent;
+    text-align: end;
+}
+
+nav .rk div input{
+    width: 175px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.modal h3{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.modal .light{
+    width: 100%;
+    height: 100%;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal .light form{
+    width: 100%;
+    padding: 10px;
+    box-shadow: 1px 1px 3px 5px orange;
+    text-align: start;
+}
+
+.modal .light form input{
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.modal .light form input[type="submit"]{
+    width: 145px;
+    height: 45px;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+}
+
+.modal .light form input[type="submit"]:hover{
+    background-color: white;
+    color: orange;
+}
+
+.modal .light form label{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 15px;
+    color: black;
+    text-align: start;
+}
+
+.modal .light form p{
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-align: start;
+}
+
+.fd{
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    color: white;
+    padding: 75px;
+}
+
+.fd div img{
+    width: 75%;
+    padding: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.fd div h2{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: fine;
+}
+
+@font-face {
+    font-family: fine;
+    src: url("Assets/CroissantOne-Regular.ttf");
+}
+
+.fd .fd1{
+    padding: 45px;
+    border: 1px solid black;
+}
+
+.fd .fd1 div img{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+}
+
+.bg, .bg1, .bg2, .bg3{
+    width: 100%;
+    height: 575px;
+    padding: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.bg{
+    background-image: url("Main/Assets/Food\ Image\ \(1\).jpg");
+}
+
+.bg1{
+    background-image: url("Main/Assets/Different Varieties Cheese Tomatoes.jpg");
+}
+
+.bg2{
+    background-image: url("Main/Assets/Man Is Cooking Spaghetti Pasta.jpg");
+}
+
+.bg3{
+    background-image: url("Main/Assets/Fresh\ Pasta.jpg");
+}
+
+.bg div{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid orange;
+    padding: 10px;
+}
+
+.bg div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+}
+
+@font-face {
+    font-family: special;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.bg div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.bg1 div{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid orange;
+    padding: 10px;
+}
+
+.bg1 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+}
+
+.bg1 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.bg2 div{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid orange;
+    padding: 10px;
+}
+
+.bg2 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+}
+
+.bg2 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.bg3 div{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid orange;
+    padding: 10px;
+}
+
+.bg3 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+}
+
+.bg3 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.food1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.food1 div h2{
+    font-size: 42px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: bg1;
+    text-align: center;
+}
+
+@font-face {
+    font-family: bg1;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.food1 div p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
+
+.food1 .card{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid orangered;
+    border-radius: 5px;
+}
+
+.food1 .card a img{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.food1 .card .card-body{
+    padding: 10px;
+    text-align: center;
+}
+
+.food1 .card .card-body div h3{
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px;
+    font-family: bg2;
+}
+
+@font-face {
+    font-family: bg2;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.cookie{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 45px;
+}
+
+.cookie img{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+.cookie .rkm .dropdown button{
+    width: 175px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.cookie .rkm .dropdown span img{
+    width: 45px;
+    padding: 10px;
+}
+
+.cookie .rkm h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.cookie div h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cookie ol li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+}
+
+.cookie ol li img{
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border: none;
+}
+
+.cookie ol li{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    color: white;
+}
+
+.cookie div button img{
+    width: 35px;
+    height: 35px;
+}
+
+.cookie div button{
+    width: 175px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    font-size: 300;
+}
+
+.cookie div button span p{
+    font-size: 16px;
+    font-weight: 500;
+}
