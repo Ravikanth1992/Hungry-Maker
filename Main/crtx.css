@@ -1,0 +1,562 @@
+nav .rk button{
+    width: 55px;
+    height: 55px;
+    border: none;
+    text-align: end;
+    background-color: transparent;
+}
+
+nav .rk button span img{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+nav .rk button span img[type="twt"]{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+nav .rk input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bg, .bg1, .bg2{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 45px;
+    text-align: center;
+}
+
+.bg{
+    background-image: url("Assets/Fd\ Img\ \(1\).jpg");
+}
+
+.bg1{
+    background-image: url("Assets/Fd\ Img\ \(2\).jpg");
+}
+
+.bg2{
+    background-image: url("Assets/Fd\ Img\ \(3\).jpg");
+}
+
+.bg div{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid orangered;
+    border-radius: 8px;
+}
+
+.bg div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: bg;
+}
+
+@font-face {
+    font-family: bg;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.bg div p{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.bg div h1{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: bg;
+}
+
+.bg1 div{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid orangered;
+    border-radius: 8px;
+}
+
+.bg1 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: bg;
+}
+
+@font-face {
+    font-family: bg;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.bg1 div p{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.bg1 div h1{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: bg;
+}
+
+.bg2 div{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid orangered;
+    border-radius: 8px;
+}
+
+.bg2 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: bg;
+}
+
+@font-face {
+    font-family: bg;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.bg2 div p{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.bg2 div h1{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: bg;
+}
+
+#menu{
+    display: block;
+}
+
+.food{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.food div h2{
+    font-size: 42px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: bg1;
+    text-align: center;
+}
+
+@font-face {
+    font-family: bg1;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.food div p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
+
+.food .card{
+    width: 100%;
+    background-color: wheat;
+    color: black;
+    padding: 10px;
+    border: 1px solid orangered;
+}
+
+.food .card a img{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.food .card .card-body{
+    padding: 10px;
+    text-align: center;
+}
+
+.food .card .card-body div h3{
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px;
+    font-family: bg2;
+}
+
+@font-face {
+    font-family: bg2;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.vsm{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.vsm .slide-left {
+    position: relative;
+    left: -10%; /* Starts off-screen to the left */
+    opacity: 0; /* Starts invisible */
+    transition: left 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.vsm .slide-right {
+    position: relative;
+    right: -10%; /* Starts off-screen to the right */
+    opacity: 0; /* Starts invisible */
+    transition: right 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+
+.vsm div h3{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 25px;
+    font-family: high;
+}
+
+.vsm div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 25px;
+}
+
+.vsm div img{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid orange;
+}
+
+.vsm div h4{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 25px;
+    font-family: high;
+}
+
+@font-face {
+    font-family: high;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.vsm div ol li p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.vsm div img[type="back"]{
+    width: 100%;
+    padding: 15px;
+    border: 2px solid black;
+    box-shadow: 1px 2px 2px 6px orange;
+    border-radius: 5px;
+}
+
+.vsm div img[type="back"]:hover{
+    background-image: url("Assets/Food\ Bg.gif");
+}
+
+.food1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.food1 div h1{
+    font-size: 42px;
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    font-family: source;
+}
+
+@font-face {
+    font-family: source;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.food1 .crd{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    color: black;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px orange;
+}
+
+.food1 .crd div h2{
+    font-size: 32px;
+    font-weight: 800;
+    padding: 10px;
+    font-family: source;
+}
+
+.food1 .crd div p{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.food1 .crd div img{
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+}
+
+.food1 .crd .partner div h2{
+    font-size: 26px;
+    font-weight: 800;
+    padding: 10px;
+    font-family: source;
+}
+
+.food1 .crd .partner div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.city{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: white;
+}
+
+.city h2{
+    font-size: 26px;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-family: kal;
+}
+
+@font-face{
+    font-family: Kal;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.city p{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.icn{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.icn div img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.icn div {
+    position: relative;
+}
+.icn div p {
+    text-align: center;
+    margin-top: 10px;
+}
+/* Optional: Add a hover effect */
+.icn div img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.icn div img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    box-shadow: 1px 2px 3px 4px wheat;
+}
+
+.icn div p{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: rag;
+}
+
+@font-face {
+    font-family: rag;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.pg1{
+    width: 100%;
+    height: 100%;
+    background-image: url("Assets/Food\ Pxl\ Background\ Image.jpg");
+    color: black;
+    padding: 35px;
+    text-align: center;
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+}
+
+.pg1 .rex{
+    width: 200px;
+    height: 150px;
+    padding: 35px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 2px solid orangered;
+    border-radius: 8px;
+}
+
+.pg1 .rex:hover{
+    box-shadow: 2px 5px 8px black;
+}
+
+.pg1 .rex div span{
+    background-color: white;
+    color: black;
+}
+
+.pg1 div span{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.pg1 div h2{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.cookie{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 45px;
+}
+
+.cookie img{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+.cookie .rkm .dropdown button{
+    width: 175px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.cookie .rkm .dropdown span img{
+    width: 45px;
+    padding: 10px;
+}
+
+.cookie .rkm h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.cookie div h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cookie ol li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+}
+
+.cookie ol li img{
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border: none;
+}
+
+.cookie ol li{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    color: white;
+}
+
+.cookie div button img{
+    width: 35px;
+    height: 35px;
+}
+
+.cookie div button{
+    width: 175px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    font-size: 300;
+}
+
+.cookie div button span p{
+    font-size: 16px;
+    font-weight: 500;
+}

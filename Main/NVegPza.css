@@ -1,0 +1,229 @@
+nav .rk button{
+    width: 55px;
+    height: 55px;
+    border: none;
+    text-align: end;
+    background-color: transparent;
+}
+
+nav .rk button span img{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+nav .rk input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.smp{
+    width: 100%;
+    height: 250px;
+    background-image: url("Assets/PT=BG.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.smp div a span img{
+    padding: 30px 10px;
+    color: white;
+}
+
+.smp div a{
+    padding: 30px 10px;
+}
+
+.smp div h3{
+    font-size: 42px;
+    font-weight: 500;
+    color: white;
+    padding: 5px 20px;
+}
+
+.nme{
+    padding: 50px;
+    color: red;
+}
+
+.nme h3{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    font-family: Nm;
+}
+
+@font-face{
+    font-family: Nm;
+    src: url("Assets-1/KGBlankSpaceSketch.ttf");
+}
+
+.nme1 .card{
+    background-image: url("Assets-1/red.webp");
+    padding: 10px;
+    text-align: center;
+}
+
+.nme1 .card img{
+    width: 100%;
+    padding: 10px;
+}
+
+.thnk{
+    color: black;
+    padding: 10px;
+}
+
+.card .card-body .thnk h3{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.card .card-body .thnk p{
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px;
+    text-align: center;
+}
+
+.card .card-body .thnk button{
+    width: 135px;
+    height: 45px;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hd{
+    background-image: url("Assets-1/SkyBLue\ Bg.jpg");
+    color: red;
+    padding: 45px;
+    text-align: center;
+}
+
+.hd h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.hd p{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    color: black;
+}
+
+.hd1{
+    background-image: url("Assets/Cafe\ Francoise\ 2.0.png");
+    color: white;
+    padding: 50px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+
+.hd1 div h4{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    font-family: Hr;
+    color: white;
+    text-align: center;
+}
+
+@font-face{
+    font-family: Hr;
+    src: url("Assets-1/CroissantOne-Regular.ttf");
+}
+
+.hd1 div ol li details summary{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.hd1 div ol li details p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.btm{
+    background-image: url("Assets-2/bg\ \(1\).jpg");
+    color: white;
+    padding: 55px;
+    border-radius: 10px;
+    border-bottom: 1px solid white;
+    background-size: cover;
+}
+
+.btm div img{
+    width: 25%;
+    padding: 10px;
+}
+
+.btm div .dropdown span img{
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+}
+
+.btm div .dropdown button{
+    width: 115px;
+    height: 45px;
+    color: black;
+    background-color: white;
+}
+
+.btm div h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.btm ol li{
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.csh button{
+    width: 125px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.bgm div button{
+    width: 150px;
+    height: 55px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 12px;
+    font-size: 300;
+}
+
+.bgm div button span img{
+    width: 100%;
+    padding: 10px;
+}
+
+.bgm div button span p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px;
+}

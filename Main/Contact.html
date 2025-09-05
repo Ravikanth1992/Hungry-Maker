@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <header class="container-fluid">
+        <nav
+            class="navbar navbar-expand-sm navbar-light bg-light"
+        >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="InfinityFood.html"><img src="Assets/INFINITY.jpg" class="w-50" alt=""></a>
+                <button
+                    class="navbar-toggler d-lg-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="InfinityFood.html" aria-current="page"
+                                >Home
+                                <span class="visually-hidden">(current)</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Features.html">Features</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="dropdownId"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                ><span><img src="Track Icon.png" alt=""></span> Branches</a
+                            >
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownId"
+                            >
+                                <a class="dropdown-item" href="#"
+                                    > Vizag</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                > Banglore</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    > Hyderabad</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                > Vijayanagaram</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                > Kurnool</a
+                                >
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="dropdownId"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                > Menu</a
+                            >
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownId"
+                            >
+                            <a class="dropdown-item" href="Brgr & Fries.html"
+                            >
+                                <img src="Assets/Pza & Brgr.jpg" class="w-25" alt="">
+                                <p>Burgers & Fries</p>
+                                </a>
+                                <a class="dropdown-item" href="Noodle.html"
+                                > <img src="Assets/Instant Noodles.jpg" class="w-25" alt="">
+                                <p>Noodles</p>
+                                </a>
+                                <a class="dropdown-item" href="PzaMnia.html"
+                                > <img src="Assets/Pizza & Pasta.jpg" class="w-25" alt="">
+                                <p>Pizza & Pasta</p>
+                                </a>
+                                <a class="dropdown-item" href="McDonald's.html"
+                                > <img src="Assets/Grills & Steeks.jpg" class="w-25" alt="">
+                                <p>Grills & Steeks</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="rk">
+                        <div>
+                            <input class="control" type="text" placeholder="Search" />
+                            <button><span><img src="Assets/whatsapp-svgrepo-com.svg" alt=""></span></button>
+                            <button><span><img src="Assets/Facebook.svg" alt=""></span></button>
+                            <button><span><img type="twt" src="Assets/twitter-3-svgrepo-com.svg" alt=""></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container-fluid">
+        <div class="contact">
+            <div>
+                <h2>Complaint Box <span><img src="" alt=""></span></h2>
+                <p>We’d love to hear from you! Whether you have a question about our products, want to give feedback, <br>or just want to say hi the Infinity Food team is here for you. <br>Fill out the form below or reach out directly <br>via Website or Application.</p>
+            </div>
+        </div>
+    </section>
+        <section class="container-fluid">
+        <div class="contact1">
+            <div>
+                <h2>Contact us:-</h2>
+                <p>Use the form below or contact us directly via phone or email. We're always happy to chat!</p>
+            </div>
+            <div class="row p-2">
+                <div class="col-12 col-md-6 col-lg-6 p-3">
+                    <form action="Thank.html" id="ComplaintForm" onsubmit="return complaint()">
+                        <label for="name">Name</label>
+                        <br>
+                        <input type="text" id="name" name="name" required>
+                        <p id="nameError"></p>
+                        <label for="email">EMail</label>
+                        <br>
+                        <input type="email" id="email" name="email" required>
+                        <p id="emailError"></p>
+                        <label for="complaint">Complaint</label>
+                        <br>
+                        <input type="text" id="complaint" name="complaint" required>
+                        <p id="complaintError"></p>
+                        <label for="address">Address</label>
+                        <br>
+                        <textarea id="address" name="address" required></textarea>
+                        <p id="addressError"></p>
+    
+                        <input type="submit"></input>
+                    </form>                    
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 p-3">
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.8674029405247!2d78.39116697341308!3d17.51384199915338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91fd14c5e019%3A0x622e36d6943dbffc!2sVaishnavi%20Perfect%20Towers!5e0!3m2!1sen!2sin!4v1756981311223!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section class="container-fluid">
+        <div class="contact3">
+            <div class="row p-2">
+                <div class="col-12 col-md-6 col-lg-7 p-3">
+                    <div class="slide-left">
+                        <h3>Order Your Food On Our Infinity App.</h3>
+                        <p>With the rise of digital payments, wallet payment systems have become a game-changer for food applications. By integrating mobile wallet options, users can seamlessly pay for their meals with just a few taps on their smartphones.</p>
+                        <h4>You Can Order Your Favourite Food At Below Restaurents By Using Our App:-</h4>
+                        <ol>
+                            <li>
+                                <p>Raju Gari Vidu Bojanam</p>
+                            </li>
+                            <li>
+                                <p>Chimney Take Away Restaurent</p>
+                            </li>
+                            <li>
+                                <p>Naidu Gari Kunda Biryani</p>
+                            </li>
+                            <li>
+                                <p>Kaustabha Main Restaurant</p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 p-3">
+                    <div class="slide-right">
+                        <img type="back" src="Assets/INFINITY Phone Bg.png" alt="Placeholder Image">
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+    <section class="container-fluid p-0">
+    <div class="contact2">
+        <div class="row p-2">
+            <div class="col-12 col-md-6 col-lg-3 p-3">
+                <div>
+                    <img src="Assets/INFINITY.jpg" alt="">
+                </div>
+                <div class="rkm">
+                    <div class="dropdown open p-3">
+                        <button
+                            class="btn dropdown-toggle"
+                            type="button"
+                            id="triggerId"
+                            data-bs-toggle="dropdown"
+                        >
+                        <span><img src="Assets/flag-of-india-waving.gif" alt=""></span> India / ₹
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <button class="dropdown-item" href="#">Delhi</button>
+                            <button class="dropdown-item" href="#">Gujarat</button>
+                            <button class="dropdown-item" href="#">Hyderabad</button>
+                        </div>
+                    </div>
+   
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 p-3">
+                <div>
+                    <h3>Categories</h3>
+                </div>
+                <ol>
+                    <li><a href="Brgr & Fries.html">Burgers & Fries</a></li>
+                    <li><a href="Noodle.html">Noodles</a></li>
+                    <li><a href="PzaMnia.html">Pizza & Pasta</a></li>
+                    <li><a href="McDonald's.html">Grills & Steaks</a></li>
+                </ol>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 p-3">
+                <div>
+                    <h3>Let us help you</h3>
+                </div>
+                <ol>
+                    <li><a href="Support.html">Support</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ol>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 p-3">
+                <div>
+                    <h3>Follow us</h3>
+                </div>
+                <ol>
+                    <li><img src="Assets/Facebook.svg" alt=""> Facebook</li>
+                    <li><img src="Assets/icons8-instagram.svg" alt="">Instagram</li>
+                    <li><img src="Assets/icons8-twitter.svg" alt=""> Twitter</li>
+                </ol>
+            </div>
+    </div>   
+    </div>
+</section>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="jquery-3.7.1.min.js"></script>
+<script src="Script4.js"></script>
+<script>
+        $(document).ready(function() {
+        $('.slide-left').addClass('animate');
+        $('.slide-right').addClass('animate');
+    });
+</script>
+</body>
+</html>

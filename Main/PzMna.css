@@ -1,0 +1,473 @@
+nav .rk button{
+    width: 55px;
+    height: 55px;
+    border: none;
+    text-align: end;
+    background-color: transparent;
+}
+
+nav .rk button span img{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+nav .rk button span img[type="twt"]{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+nav .rk input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pza{
+    width: 100%;
+    height: 275px;
+    background-image: url("Assets/PT=BG.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 45px;
+    color: black;
+}
+
+.pza div a span img{
+    padding: 30px 10px;
+    color: white;
+}
+
+.pza div a span img{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    background-color: white;
+}
+
+.pza div a{
+    color: white;
+}
+
+.pza div h3 span img{
+    width: 25%;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.pza div a{
+    padding: 30px 10px;
+}
+
+.pza div h3{
+    font-size: 42px;
+    font-weight: 500;
+    color: white;
+    padding: 25px 20px;
+    font-family: R;
+}
+
+@font-face {
+    font-family: R;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.mnia{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+    text-align: center;
+}
+
+.mnia div h2{
+    font-size: 42px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.mnia div h3{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: me;
+}
+
+@font-face{
+    font-family: me;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.mnia .card{
+    width: 100%;
+    background-color: wheat;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.mnia .card img{
+    width: 100%;
+    height: 225px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.mnia .card .card-body{
+    padding: 10px;
+}
+
+.mnia .card .card-body div h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+.mnia .card .card-body div p{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    color: black;
+}
+
+.mnia .card .card-body div a button{
+    width: 115px;
+    height: 45px;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.pzmn{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+    text-align: center;
+}
+
+.pzmn div h3{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.pzmn div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.pzmn .dfn{
+    width: 100%;
+    height: 100%;
+    padding: 45px;
+    background-color: skyblue;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.pzmn .dfn div h2{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.pzmn .dfn div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.hdm{
+    width: 100%;
+    height: 100%;
+    background-image: url("Assets/Goumbik\ BG.jpg");
+    color: white;
+    padding: 45px;
+    background-position: center;
+    background-size: cover;
+}
+
+.hdm div h4{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    font-family: Hr;
+    color: black;
+}
+
+@font-face{
+    font-family: Hr;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.hdm div ol{
+    padding: 5px;
+}
+
+.hdm div ol li{
+    padding: 5px;
+}
+
+.hdm div ol li details summary{
+    width: 100%;
+    height: 65px;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hdm div ol li details p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    color: black;
+}
+
+.hdm1{
+    width: 100%;
+    height: 100%;
+    background-image: url("Assets/Food\ Pxl\ Background\ Image.jpg");
+    color: black;
+    padding: 35px;
+    text-align: center;
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+}
+
+.hdm1 .rex{
+    width: 200px;
+    height: 150px;
+    padding: 35px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 2px solid orangered;
+    border-radius: 8px;
+}
+
+.hdm1 .rex:hover{
+    box-shadow: 2px 5px 8px black;
+}
+
+.hdm1 .rex div span{
+    background-color: white;
+    color: black;
+}
+
+.hdm1 div span{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.hdm1 div h2{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.vsm{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.vsm .slide-left {
+    position: relative;
+    left: -10%; /* Starts off-screen to the left */
+    opacity: 0; /* Starts invisible */
+    transition: left 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.vsm .slide-right {
+    position: relative;
+    right: -10%; /* Starts off-screen to the right */
+    opacity: 0; /* Starts invisible */
+    transition: right 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+
+.vsm div h3{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 25px;
+    font-family: high;
+}
+
+.vsm div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 25px;
+}
+
+.vsm div img{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid orange;
+}
+
+.vsm div h4{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 25px;
+    font-family: high;
+}
+
+@font-face {
+    font-family: high;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.vsm div ol li p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.vsm div img[type="back"]{
+    width: 100%;
+    padding: 15px;
+    border: 2px solid black;
+    box-shadow: 1px 2px 2px 6px orange;
+    border-radius: 5px;
+}
+
+.vsm div img[type="back"]:hover{
+    background-image: url("Assets/Food\ Bg.gif");
+}
+
+.btm{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 45px;
+}
+
+.btm img{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+.btm .rkm .dropdown button{
+    width: 175px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.btm .rkm .dropdown span img{
+    width: 45px;
+    padding: 10px;
+}
+
+.btm .rkm h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.btm div h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btm ol li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+}
+
+.btm ol li img{
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border: none;
+}
+
+.btm ol li{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    color: white;
+}
+
+.btm div button img{
+    width: 35px;
+    height: 35px;
+}
+
+.btm div button{
+    width: 175px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    font-size: 300;
+}
+
+.btm div button span p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.csh button{
+    width: 125px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.modal .modal-div h2{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.modal .modal-div div button{
+    padding: 10px;
+}
+
+.modal .modal-body h4{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+    text-align: center;
+}

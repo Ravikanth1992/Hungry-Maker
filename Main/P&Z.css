@@ -1,0 +1,494 @@
+nav .rk button{
+    width: 55px;
+    height: 55px;
+    border: none;
+    text-align: end;
+    background-color: transparent;
+}
+
+nav .rk button span img{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+nav .rk button span img[type="twt"]{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+nav .rk input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.smp{
+    width: 100%;
+    height: 275px;
+    background-image: url("Assets/Pt Bg's (2).jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 45px;
+}
+
+.smp div a span img{
+    width: 50px;
+    height: 85px;
+    padding: 30px 10px;
+    color: white;
+}
+
+.smp div a{
+    padding: 30px 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.smp div h3{
+    font-size: 42px;
+    font-weight: 500;
+    color: white;
+    padding: 5px 20px;
+    font-family: prjct;
+}
+
+@font-face {
+    font-family: prjct;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.fry{
+    width: 100%;
+    height: 100%;
+    background-color: wheat;
+    color: black;
+    padding: 45px;
+}
+
+.fry .icn{
+    text-align: center;
+}
+
+.fry .icn img{
+    width: 75%;
+    height: 115px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.fry .icn p{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.card{
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px rgb(184, 182, 182);
+}
+
+.many{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: white;
+    padding: 45px;
+    text-align: center;
+}
+
+.many div h2{
+    font-size: 42px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.many div p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
+
+.many .card{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid orange;
+    background-color: wheat;
+    border-radius: 5px;
+}
+
+.many .card img{
+    width: 100%;
+    height: 225px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.many .card img[type="pizza"]{
+    width: 100%;
+    height: 225px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.many .card .card-body{
+    padding: 10px;
+}
+
+.many .card .card-body div h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    font-family: pizza;
+}
+
+@font-face {
+    font-family: pizza;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.many .card .card-body div h4[type="pizza"]{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    font-family: pizza;
+}
+
+.many .card .card-body div p{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+.many .card .card-body div a button{
+    width: 125px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.many1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.many1 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    font-family: kint;
+}
+
+@font-face {
+    font-family: kint;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.many1 .hd{
+    padding: 25px;
+    border: 1px solid orangered;
+    border-radius: 5px;
+}
+
+.many1 .hd:hover{
+    box-shadow: 1px 2px 5px 5px orange;
+}
+
+.many1 .hd div h3{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: man;
+    text-align: center;
+}
+
+@font-face {
+    font-family: man;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.many1 .hd div p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
+
+.many2{
+    width: 100%;
+    height: 100%;
+    background-image: url("Assets/Goumbik\ BG.jpg");
+    color: white;
+    padding: 45px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.many2 div h3{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    font-family: man;
+}
+
+.many2 div h4{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+@font-face{
+    font-family: Hr;
+    src: url("Assets-1/CroissantOne-Regular.ttf");
+}
+
+.many2 div ol{
+    padding: 5px;
+}
+
+.many2 div li{
+    padding: 5px;
+}
+
+.many2 div ol li details summary{
+    width: 100%;
+    height: 70px;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: start;
+}
+
+.many2 div ol li details summary:hover{
+    background-color: black;
+    color: orange;
+}
+
+.many2 div ol li details p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: start;
+}
+
+.many3{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.many3 .slide-left {
+    position: relative;
+    left: -10%; /* Starts off-screen to the left */
+    opacity: 0; /* Starts invisible */
+    transition: left 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.many3 .slide-right {
+    position: relative;
+    right: -10%; /* Starts off-screen to the right */
+    opacity: 0; /* Starts invisible */
+    transition: right 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.many3 div h3{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 25px;
+    font-family: high;
+}
+
+@font-face {
+    font-family: high;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.many3 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 25px;
+}
+
+.many3 div img{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid orange;
+}
+
+.many3 div ol{
+    padding: 5px;
+}
+
+.many3 div ol li{
+    padding: 5px;
+}
+
+.many3 div ol li p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.many3 div img{
+    width: 100%;
+    padding: 25px;
+    border: 2px solid black;
+    box-shadow: 1px 2px 2px 6px orange;
+}
+
+.many3 div img:hover{
+    background-image: url("Assets/Food\ Bg.gif");
+}
+
+.many4{
+    width: 100%;
+    height: 100%;
+    background-image: url("Assets/Food\ Pxl\ Background\ Image.jpg");
+    color: black;
+    padding: 35px;
+    text-align: center;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+}
+
+.many4 .rex{
+    width: 200px;
+    height: 150px;
+    padding: 35px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 2px solid orangered;
+    border-radius: 8px;
+}
+
+.many4 .rex:hover{
+    box-shadow: 2px 5px 8px black;
+}
+
+.many4 .rex div span{
+    background-color: white;
+    color: black;
+}
+
+.many4 div span{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.many4 div h2{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.many5{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 45px;
+}
+
+.many5 img{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+.many5 .rkm .dropdown button{
+    width: 175px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.many5 .rkm .dropdown span img{
+    width: 45px;
+    padding: 10px;
+}
+
+.many5 .rkm h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.many5 div h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.many5 ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+}
+
+.many5 ul li img{
+    width: 75px;
+    height: 55px;
+    padding: 10px;
+    border: none;
+}
+
+.many5 div button img{
+    width: 35px;
+    height: 35px;
+}
+
+.many5 div button{
+    width: 175px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    font-size: 300;
+}
+
+.many5 div button span p{
+    font-size: 16px;
+    font-weight: 500;
+}

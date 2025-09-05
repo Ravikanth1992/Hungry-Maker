@@ -1,0 +1,184 @@
+nav .rk img{
+    text-align: end;    
+}
+
+nav .rk button{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.smp{
+    width: 100%;
+    height: 250px;
+    background-image: url("ICONS/Pt Bg's (2).jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.smp div a span img{
+    padding: 30px 10px;
+    color: white;
+}
+
+.smp div a{
+    padding: 30px 10px;
+}
+
+.smp div h3{
+    font-size: 42px;
+    font-weight: 500;
+    color: white;
+    padding: 5px 20px;
+}
+
+.icn{
+    text-align: center;
+}
+
+div .icn img{
+    width: 75%;
+    height: 100px;
+    padding: 5px;
+}
+
+div .icn p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.card{
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px rgb(184, 182, 182);
+}
+
+.many{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 100%;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px rgb(184, 182, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .card-body{
+    padding: 10px;
+}
+
+.many .card img{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.many .card .card-body img{
+    width: 100%;
+    padding: 10px;
+}
+
+.many .card .card-body h2{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.many .card .card-body p{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.offcanvas form button{
+    width: 125px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.offcanvas form button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.modal h1{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cookie{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
+.cookie div img{
+    width: 75%;
+}
+
+.cookie .rkm .dropdown button{
+    width: 125px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.cookie .rkm h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.cookie div h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cookie ol li{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.cookie div button img{
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.cookie div button{
+    width: 150px;
+    height: 55px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    font-size: 12px;
+    font-size: 300;
+}

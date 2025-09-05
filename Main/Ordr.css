@@ -1,0 +1,441 @@
+nav .rk button{
+    width: 55px;
+    height: 55px;
+    border: none;
+    text-align: end;
+    background-color: transparent;
+}
+
+nav .rk button span img{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+nav .rk button span img[type="twt"]{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+nav .rk input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.ordr{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Assets/bg\ \(1\).jpg");
+    color: black;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ordr div{
+    background-image: url("Assets/Static\ Dark.gif");
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid orangered;
+    border-radius: 8px;
+}
+
+.ordr div h2{
+    font-size: 42px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: ordr;
+}
+
+@font-face {
+    font-family: ordr;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.ordr1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 45px;
+}
+
+.ordr1 div h2{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ordr1 div h2 span img[type="logo"]{
+    width: 25%;
+    height: 55px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.ordr1 div form{
+    padding: 10px;
+    border: 1px solid orangered;
+    box-shadow: 1px 2px 5px 5px rgb(110, 93, 61);
+    border-radius: 5px;
+}
+
+.ordr1 div form label{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ordr1 div form input{
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.ordr1 div select{
+    width: 215px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.ordr1 div form input[type="submit"]{
+    width: 125px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 2px 10px orange;
+}
+
+.ordr1 div form p{
+    text-align: start;
+}
+
+.ordr1 div form select[type="set"]{
+    width: 155px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 5;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.ordr1 div form select[type="sets"]{
+    width: 230px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 5;
+    border: 1px solid black;
+    padding: 10px;    
+}
+
+.ordr1 div form textarea{
+    width: 275px;
+    height: 55px;
+    background-color: white;
+    color: black;
+    border-radius: 5;
+    border: 1px solid orangered;
+    padding: 10px;    
+}
+
+.ordr1 div[type="order"]{
+    padding: 45px;
+}
+
+.ordr1 div img{
+    width: 100%;
+    height: 375px;
+    padding: 10px;
+    border: 1px solid orangered;
+    border-radius: 5px;
+}
+
+.ordr1 div img:hover{
+    box-shadow: 1px 2px 5px 5px orange;
+}
+
+.ordr2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.ordr2 .slide-left {
+    position: relative;
+    left: -10%; /* Starts off-screen to the left */
+    opacity: 0; /* Starts invisible */
+    transition: left 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.ordr2 .slide-right {
+    position: relative;
+    right: -10%; /* Starts off-screen to the right */
+    opacity: 0; /* Starts invisible */
+    transition: right 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.ordr2 div h3{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 25px;
+    font-family: high;
+}
+
+.ordr2 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 25px;
+}
+
+.ordr2 div img{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid orange;
+}
+
+.ordr2 div h4{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 25px;
+    font-family: high;
+}
+
+@font-face {
+    font-family: high;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.ordr2 div ol{
+    padding: 5px;
+}
+
+.ordr2 div ol li{
+    padding: 5px;
+}
+
+.ordr2 div ol li p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ordr2 div img{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 1px 2px 2px 6px orange;
+    border-radius: 5px;
+}
+
+.ordr2 div img:hover{
+    background-image: url("Assets/Food\ Bg.gif");
+}
+
+.ordr3{
+    width: 100%;
+    height: 100%;
+    background-image: url("Assets/Food\ Pxl\ Background\ Image.jpg");
+    color: black;
+    padding: 35px;
+    text-align: center;
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+}
+
+.ordr3 .rex{
+    width: 200px;
+    height: 150px;
+    padding: 35px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 2px solid orangered;
+    border-radius: 8px;
+}
+
+.ordr3 .rex:hover{
+    box-shadow: 2px 5px 8px black;
+}
+
+.ordr3 .rex div span{
+    background-color: white;
+    color: black;
+}
+
+.ordr3 div span{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ordr3 div h2{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ordr4{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 45px;
+}
+
+.ordr4 img{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+.ordr4 .rkm .dropdown button{
+    width: 175px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.ordr4 .rkm .dropdown span img{
+    width: 45px;
+    padding: 10px;
+}
+
+.ordr4 .rkm h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ordr4 div h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ordr4 ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+}
+
+.ordr4 ul li img{
+    width: 75px;
+    height: 55px;
+    padding: 10px;
+    border: none;
+}
+
+.ordr4 div button img{
+    width: 35px;
+    height: 35px;
+}
+
+.ordr4 div button{
+    width: 175px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    font-size: 300;
+}
+
+.ordr4 div button span p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ordr5{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.ordr5 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    font-family: special;
+}
+
+@font-face {
+    font-family: special;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.ordr5 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.ordr5 .card{
+    width: 100%;
+    height: 215px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ordr5 .card:hover{
+    box-shadow: 1px 3px 2px 5px orange;
+}
+
+.ordr5 .card img{
+    width: 25%;
+    padding: 10px;
+    border-radius: 100%;
+    border: 1px solid orangered;
+    background-color: white;
+}
+
+.ordr5 .card .card-body div h4{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ordr5 .card:hover{
+    box-shadow: 1px 1px 3px 5px orange;
+}

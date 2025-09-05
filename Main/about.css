@@ -1,0 +1,399 @@
+nav .rk button{
+    width: 55px;
+    height: 55px;
+    border: none;
+    text-align: end;
+    background-color: transparent;
+}
+
+nav .rk button span img{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+nav .rk button span img[type="twt"]{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+nav .rk input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.abt{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.abt div a span img{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    color: black;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.abt div a{
+    color: black;
+}
+
+.abt div h3{
+    font-size: 42px;
+    font-weight: 500;
+    color: black;
+    padding: 10px;
+}
+
+.abt div p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.abt div img[type="home"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 5px orange;
+}
+
+.abt1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.abt1 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.abt1 div p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
+
+.abt1 .card{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid orange;
+}
+
+.abt1 .card a img{
+    width: 100%;
+    height: 225px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.abt1 .card a img:hover{
+    width: 100%;
+    padding: 10px;
+    box-shadow: 1px 2px 4px 4px orange;
+}
+
+.abt1 .card .card-body{
+    padding: 10px;
+}
+
+.abt1 .card .card-body div h3{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.abt1 .card .card-body div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.abt1 .card .card-body div img[type="search"]{
+    width: 50%;
+    padding: 10px;
+    border: none;
+}
+
+.abt2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.abt2 .slide-left, .slide-right {
+    opacity: 0;
+    position: relative;
+}
+
+.abt2 .slide-left {
+    left: -50px;
+}
+
+.abt2 .slide-right {
+    right: -50px;
+}
+
+.abt2 .animate {
+    opacity: 1 !important;
+    left: 0 !important;
+    right: 0 !important;
+    transition: all 5s ease;
+}
+
+.abt2 div h3{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 25px;
+    font-family: high;
+}
+
+.abt2 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 25px;
+}
+
+.abt2 div img{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+.abt2 div h4{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 25px;
+    font-family: high;
+}
+
+@font-face {
+    font-family: high;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.abt2 div ol{
+    padding: 25px;
+}
+
+.abt2 div ol li p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.abt2 div img[type="back"]{
+    width: 100%;
+    padding: 25px;
+    border: 2px solid black;
+    box-shadow: 1px 2px 2px 6px orange;
+}
+
+.abt2 div img[type="back"]:hover{
+    background-image: url("Assets/Food\ Bg.gif");
+}
+
+.abt3{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.abt3 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    font-family: special;
+}
+
+@font-face {
+    font-family: special;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.abt3 .card{
+    width: 100%;
+    height: 225px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.abt3 .card:hover{
+    box-shadow: 1px 3px 2px 5px orange;
+}
+
+.abt3 .card img{
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    border-radius: 100px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.abt3 .card .card-body div h4{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.abt3 .card:hover{
+    box-shadow: 1px 1px 3px 5px orange;
+}
+
+.abt4{
+    width: 100%;
+    height: 325px;
+    background-image: url("Assets/Food\ Pxl\ Background\ Image.jpg");
+    color: black;
+    padding: 65px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.abt4 .rex{
+    width: 165px;
+    height: 135px;
+    padding: 25px;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 2px 2px 5px orange;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.abt4 .rex div span{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.abt4 .rex div h2{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: rex;
+}
+
+@font-face {
+    font-family: rex;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.abt5{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 45px;
+}
+
+.abt5 img{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+.abt5 .rkm .dropdown button{
+    width: 175px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.abt5 .rkm .dropdown span img{
+    width: 45px;
+    padding: 10px;
+}
+
+.abt5 .rkm h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.abt5 div h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.abt5 ol li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+}
+
+.abt5 ol li img{
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border: none;
+}
+
+.abt5 ol li{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    color: white;
+}
+
+.abt5 div button img{
+    width: 35px;
+    height: 35px;
+}
+
+.abt5 div button{
+    width: 175px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    font-size: 300;
+}
+
+.abt5 div button span p{
+    font-size: 16px;
+    font-weight: 500;
+}

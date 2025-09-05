@@ -1,0 +1,58 @@
+nav .btn button{
+    width: 125px;
+    height: 45px;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid red;
+    text-align: center;
+}
+.lnk, .lnk1, .lnk2{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid transparent;
+}
+
+.lnk{
+    background-image: url("Imgs (1).jpg");
+}
+.lnk div{
+    float: left;
+}
+.lnk div h1{
+    font-size: 42px;
+    font-weight: 800;
+    font-family: lakshmi;
+    color: white;
+    background-color: transparent;
+}
+@font-face{
+    font-family: lakshmi;
+    src: url("PlayfairDisplay-Italic-VariableFont_wght.ttf");
+}
+.lnk div p{
+    font-size: 18px;
+    color: white;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.lnk div button{
+    width: 130px;
+    height: 45px;
+    color: black;
+    background-color: orangered;
+    border-radius: 10px;
+}
+
+.lnk1{
+    background-image: url("Imgs (2).jpg");
+}
+
+.lnk2{
+    background-image: url("Imgs (3).jpg");
+}

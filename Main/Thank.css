@@ -1,0 +1,366 @@
+nav .rk button{
+    width: 55px;
+    height: 55px;
+    border: none;
+    text-align: end;
+    background-color: transparent;
+}
+
+nav .rk button span img{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+nav .rk button span img[type="twt"]{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+nav .rk input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.you1, .you2, .you3{
+    width: 100%;
+    height: 525px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 45px;
+}
+
+.you1{
+    background-image: url("Assets/Food\ Image\ \(1\).jpg");
+}
+
+.you2{
+    background-image: url("Assets/Food\ Image\ \(2\).jpg");
+}
+
+.you3{
+    background-image: url("Assets/Food\ Image\ \(3\).jpg");
+}
+
+.you1 div{
+    background-color: black;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.you1 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    color: white;
+    font-family: you;
+    text-align: center;
+}
+
+@font-face {
+    font-family: you;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.you1 div p{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.you1 div a img{
+    width: 25%;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.thnk{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+    text-align: center;
+}
+
+.thnk div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.thnk div img{
+    width: 75px;
+    height: 65px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 100%;
+}
+
+.thnk div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.thnk1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    background-size: cover;
+    padding: 45px;
+}
+
+.thnk1 div h3{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    animation: set 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative;
+    font-family: adam;
+}
+
+@font-face{
+    font-family: adam;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+@keyframes set{
+    from{
+        font-size: 36px;
+        font-weight: 500;
+    }
+    to{
+        font-size: 42px;
+        font-weight: 800;
+    }
+}
+
+.thnk1 div p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.thnk1 .pg{
+    width: 25%;
+    text-align: center;
+    background-color: black;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.thnk1 .pg div span{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.thnk1 .pg div h2{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px;
+    color: white;
+    font-family: set1;
+}
+
+@font-face{
+    font-family: set1;
+    src: url("ICONS/KFOhCnGXkPOLlhx6jD8_b1ZECsHYkYBPY3o.ttf");
+}
+
+.thnk1 div img{
+    width: 100%;
+    height: 425px;
+    padding: 10px;
+    border: 1px solid orangered;
+    border-radius: 5px;
+}
+
+.thnk2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.thnk2 div iframe{
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    box-shadow: 1px 2px 3px 2px orangered;
+}
+
+.thnk3{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.thnk3 div h3{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 25px;
+    font-family: high;
+}
+
+.thnk3 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 25px;
+}
+
+.thnk3 div img{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid orange;
+}
+
+.thnk3 div h4{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 25px;
+    font-family: high;
+}
+
+@font-face {
+    font-family: high;
+    src: url("Assets/Kanit-Italic.ttf");
+}
+
+.thnk3 div ol{
+    padding: 25px;
+}
+
+.thnk3 div ol li p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.thnk3 div img{
+    width: 100%;
+    padding: 25px;
+    border: 2px solid black;
+    box-shadow: 1px 2px 2px 6px orange;
+    border-radius: 5px;
+}
+
+.thnk3 div img:hover{
+    background-image: url("Assets/Food\ Bg.gif");
+}
+
+.thnk4{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 45px;
+}
+
+.thnk4 img{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+.thnk4 .rkm .dropdown button{
+    width: 175px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.thnk4 .rkm .dropdown span img{
+    width: 45px;
+    padding: 10px;
+}
+
+.thnk4 .rkm h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.thnk4 div h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.thnk4 ol li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+}
+
+.thnk4 ol li img{
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border: none;
+}
+
+.thnk4 ol li{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    color: white;
+}
+
+.thnk4 div button img{
+    width: 35px;
+    height: 35px;
+}
+
+.thnk4 div button{
+    width: 175px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    font-size: 300;
+}
+
+.thnk4 div button span p{
+    font-size: 16px;
+    font-weight: 500;
+}
